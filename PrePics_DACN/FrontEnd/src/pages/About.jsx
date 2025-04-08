@@ -18,8 +18,8 @@ const About = () => {
                     <Button props ='Mục nổi bật'   onClick={() => navigate(`/about/${id}`)}></Button>
                     <Button props ='Bộ sưu tập '  onClick={() => navigate(`/about/${id}/aboutcollection`)}></Button>   
                     <Button props ='Số liệu thống kê ' onClick={() => navigate(`/about/${id}/aboutdata`)} ></Button>
-                    <Button props ='Người theo dõi ' onClick={() => navigate(`/about/${id}/aboutfollower`)}></Button>
-                    <Button props ='Đang theo dõi ' onClick={() => navigate(`/about/${id}/aboutwatching`)}></Button>
+                    <Button props ='Follower ' onClick={() => navigate(`/about/${id}/aboutfollower`)}></Button>
+                    <Button props ='Following ' onClick={() => navigate(`/about/${id}/aboutwatching`)}></Button>
             </div>
             <div className='mt-[100px]'>
                 <Outlet/>
