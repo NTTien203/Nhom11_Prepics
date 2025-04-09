@@ -70,7 +70,7 @@ function Comment({ user, comment, timestamp, commentId, onDelete, onEdit }) {
                 </button>
                 <button
                   onClick={handleDelete}
-                  className="block text-red-500 hover:bg-gray-100 w-full text-left text-sm px-2 py-1 rounded-md"
+                  className="block text-blue-500 hover:bg-gray-100 w-full text-left text-sm px-2 py-1 rounded-md"
                 >
                   Xóa
                 </button>

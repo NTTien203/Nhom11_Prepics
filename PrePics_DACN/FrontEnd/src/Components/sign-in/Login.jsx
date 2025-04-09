@@ -141,7 +141,7 @@ export default function  SignIn(props) {
 
     if (password == null || password.length < 6) {
       setPasswordError(true);
-      setPasswordErrorMessage('Password must be at least 6 characters long.');
+      setPasswordErrorMessage('Password must be at least 5 characters long.');
       isValid = false;
     } else {
       setPasswordError(false);
@@ -192,7 +192,7 @@ export default function  SignIn(props) {
           <Typography
             component="h1"
             variant="h1"
-            sx={{ width: '50%', fontSize: 'clamp(2rem, 5vw, 2.15rem)' }}
+            sx={{ width: '5%', fontSize: 'clamp(2rem, 5vw, 2.15rem)' }}
           >
             Đăng nhập
           </Typography>
@@ -257,7 +257,7 @@ export default function  SignIn(props) {
             </FormControl>
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
+              label="Luu mat khau"
             />
             <ForgotPassword open={open} handleClose={handleClose} />
             <Button
