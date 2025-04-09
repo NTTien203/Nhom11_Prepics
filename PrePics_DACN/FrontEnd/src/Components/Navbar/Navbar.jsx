@@ -12,7 +12,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { useNavigate } from 'react-router-dom';
 
 const pages = [
-    { name: 'Trang chủ', path: '/' },
+    { name: 'Trang chủa', path: '/' },
     { name: 'Upload', path: '/Upload' },
     { name: 'Liên hệ', path: '/' },
     { name : 'Video' , path: '/'},
@@ -22,7 +22,6 @@ const pages = [
 function Navbar({UserInfo , onClickVideo , handleLogOut , isLogin}){
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const navigate = useNavigate();
-
     const handleOpenNavMenu = (event) => {
       setAnchorElNav(event.currentTarget);
     };
