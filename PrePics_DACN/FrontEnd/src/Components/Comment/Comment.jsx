@@ -64,7 +64,7 @@ function Comment({ user, comment, timestamp, commentId, onDelete, onEdit }) {
               <div className="absolute right-0 top-0 mt-8 space-y-1">
                 <button
                   onClick={handleEdit}
-                  className="block text-red-500 hover:bg-gray-100 w-full text-left text-sm px-2 py-1 rounded-md"
+                  className="block text-blue-500 hover:bg-gray-100 w-full text-left text-sm px-2 py-1 rounded-md"
                 >
                   {isEditing ? 'Lưu' : 'Sửa'} {/* Toggle between 'Sửa' and 'Lưu' */}
                 </button>
